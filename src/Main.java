@@ -41,9 +41,28 @@ public class Main {
             total2++;
             contribution2 = contribution2 + contribution2 * 7 / 100;
                 System.out.println(" месяц " + total2 + " сумма накоплений " + contribution2 + " рублей ");
+        }
+        System.out.println(" Next task ");
+        int contribution3=15000;
+        for (int d = 1; contribution3 <= 12_000_000; d++) {
+            contribution3+=contribution3*7/100;
+            if (d % 6==0 ){
+                System.out.println( " Месяц " + d + ", Сумма накоплений равна " + contribution3 + " рублей ");
+        }
+
+            System.out.println(" Next task ");
+            System.out.println(" ");
+            int contribution4=15000;
+            for (int m = 1; m <=108 ; m++) {
+                contribution4+=contribution4*7/100;
+                if (m%6==0){
+                    System.out.println(" Месяц " + m + ", сумма накоплений равна " + contribution4 + " рублей " );
+                }
+
             }
+
         }
 
     }
-
+}
 
