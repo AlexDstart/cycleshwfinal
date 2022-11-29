@@ -62,6 +62,28 @@ public class Main {
             }
 
         }
+        System.out.println(" next task ");
+        int friday=5;
+        int day=friday;
+        for (; day <=31 ; day+=7) {
+            System.out.println(" Сегодня пятница " + day+ " -е число. Необходимо подготовить отчет ");
+        }
+        System.out.println("Final Task1");
+        int ourYear =2022;
+        int year200 =200;
+        int year100 =100;
+        for (int j = 0; j < ourYear+year100; j+=79) {
+            if(j>(ourYear-year200)&& j<(ourYear+year100)){
+                System.out.println(j);
+            }
+
+            System.out.println(" FinalTask2 ");
+            int number2=2;
+            for (int k = 1; k <=10 ; k++) {
+                System.out.println(number2+" умножаем на " +k+ " равно " + number2*k);
+            }
+
+        }
 
     }
 }
